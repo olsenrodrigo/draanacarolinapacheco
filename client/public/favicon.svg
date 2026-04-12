@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Tronco -->
+  <rect x="14.5" y="22" width="3" height="7" rx="1.5" fill="#7fb69e"/>
+
+  <!-- Folhas centrais -->
+  <ellipse cx="16" cy="17.5" rx="3.2" ry="4.5" fill="#7fb69e"/>
+  <ellipse cx="16" cy="11.5" rx="2.6" ry="3.8" fill="#7fb69e"/>
+
+  <!-- Folhas esquerda -->
+  <ellipse cx="10" cy="16.5" rx="2.4" ry="3.4" transform="rotate(-25 10 16.5)" fill="#a3d1bf"/>
+  <ellipse cx="11.5" cy="10.5" rx="2" ry="3" transform="rotate(-30 11.5 10.5)" fill="#a3d1bf"/>
+
+  <!-- Folhas direita -->
+  <ellipse cx="22" cy="16.5" rx="2.4" ry="3.4" transform="rotate(25 22 16.5)" fill="#a3d1bf"/>
+  <ellipse cx="20.5" cy="10.5" rx="2" ry="3" transform="rotate(30 20.5 10.5)" fill="#a3d1bf"/>
+
+  <!-- Folhas douradas -->
+  <ellipse cx="16" cy="6.5" rx="1.8" ry="2.8" fill="#f0c86a"/>
+  <ellipse cx="8.5" cy="12.5" rx="1.5" ry="2.2" transform="rotate(-40 8.5 12.5)" fill="#f0c86a"/>
+  <ellipse cx="23.5" cy="12.5" rx="1.5" ry="2.2" transform="rotate(40 23.5 12.5)" fill="#f0c86a"/>
+</svg>
