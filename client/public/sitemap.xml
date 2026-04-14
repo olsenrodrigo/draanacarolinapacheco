@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página principal — Português (idioma padrão) -->
+  <url>
+    <loc>https://pediatradranacarolina.com.br/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pediatradranacarolina.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pediatradranacarolina.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pediatradranacarolina.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pediatradranacarolina.com.br/"/>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://pediatradranacarolina.com.br/opengraph.jpg</image:loc>
+      <image:title>Dra. Ana Carolina Pacheco Nekrycz — Pediatra e Pneumologista Pediátrica em São Paulo</image:title>
+      <image:caption>Dra. Ana Carolina Pacheco Nekrycz, CRM 142040/SP, especialista em Pediatria e Pneumologia Pediátrica. Atendimento no EMNH Instituto de Medicina, São Paulo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pediatradranacarolina.com.br/doctor-portrait.jpg</image:loc>
+      <image:title>Foto da Dra. Ana Carolina Pacheco Nekrycz</image:title>
+      <image:caption>Dra. Ana Carolina Pacheco Nekrycz, Pediatra e Pneumologista Pediátrica formada pela USP, com mais de 10 anos de experiência em São Paulo.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Versão em inglês -->
+  <url>
+    <loc>https://pediatradranacarolina.com.br/en</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pediatradranacarolina.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pediatradranacarolina.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pediatradranacarolina.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pediatradranacarolina.com.br/"/>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Versão em espanhol -->
+  <url>
+    <loc>https://pediatradranacarolina.com.br/es</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pediatradranacarolina.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pediatradranacarolina.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pediatradranacarolina.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pediatradranacarolina.com.br/"/>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

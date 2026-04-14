@@ -1,0 +1,75 @@
+# Robots.txt — Dra. Ana Carolina Pacheco Nekrycz
+# Pediatra e Pneumologista Pediátrica em São Paulo
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Bots de busca — Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Extended (usado para treinar Gemini / Google AI)
+User-agent: Google-Extended
+Allow: /
+
+# Bots de IA — OpenAI / ChatGPT / SearchGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Bots de IA — Anthropic / Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Bots de IA — Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Bots de IA — Meta (Llama / Meta AI)
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Bots de IA — Amazon Alexa / Diffbot
+User-agent: Diffbot
+Allow: /
+
+# Bots de busca — Bing / Microsoft Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: MSNBot
+Allow: /
+
+# Bots de busca — outros
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://pediatradranacarolina.com.br/sitemap.xml
