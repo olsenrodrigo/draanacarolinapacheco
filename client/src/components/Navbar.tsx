@@ -33,7 +33,7 @@ export default function Navbar({ activeSection = "hero", scrollToSection }: Navb
     { id: "treatments", label: t("navbar.treatments") },
     { id: "differentials", label: t("navbar.differentials") },
     { id: "locations", label: t("navbar.locations") },
-    { id: "how-it-works", label: t("navbar.howItWorks") },
+    { id: "faq", label: t("navbar.howItWorks") },
     { id: "contact", label: t("navbar.contact") },
   ];
 
