@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST || "smtp.gmail.com",
+  host: process.env.SMTP_HOST || "smtp.office365.com",
   port: Number(process.env.SMTP_PORT) || 587,
   secure: false,
   auth: {
@@ -18,15 +18,13 @@ interface ContactData {
 }
 
 export async function sendContactEmail(data: ContactData) {
-  /* WHITELABEL: Substituir email de destino */
-  const to = process.env.CONTACT_EMAIL || "contato@seusite.com.br";
+  const to = process.env.CONTACT_EMAIL || "agendamento@emnhinstituto.com.br";
 
   await transporter.sendMail({
-    /* WHITELABEL: Substituir nome do remetente */
-    from: `"Site Medico" <${process.env.SMTP_USER}>`,
+    from: `"Site Dra. Ana Carolina Pediatra" <${process.env.SMTP_USER}>`,
     to,
     replyTo: data.email,
-    subject: `Nova consulta – ${data.name}`,
+    subject: `Nova solicitação de consulta — ${data.name}`,
     html: `
       <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;border:1px solid #e5e7eb;border-radius:12px">
         <h2 style="color:#2C3E50;margin-bottom:24px">Nova solicitacao de consulta</h2>
