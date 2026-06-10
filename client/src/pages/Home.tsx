@@ -90,7 +90,7 @@ export default function Home() {
               CEP <span itemProp="postalCode">01139-001</span>
             </span>.
             Atendimento de <span itemProp="openingHours">Mo-Fr 08:30-17:00</span>.
-            Telefone e WhatsApp: <span itemProp="telephone">(11) 3615-2474</span>.
+            Telefone e WhatsApp: <span itemProp="telephone">(11) 99605-8392</span>.
             E-mail: <span itemProp="email">contato@pediatradranacarolina.com.br</span>.
             Instagram: @dra.anacarolina.ped.
           </p>
